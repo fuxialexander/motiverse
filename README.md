@@ -18,7 +18,7 @@ short family names can match both forward and reverse-complement entries.
 
 ## Interactive atlas
 
-[Explore the 96-species comparative transposable-element atlas](https://fuxialexander.github.io/motiverse/atlas/), with repeat-divergence and Dfam-based evolutionary-age views.
+[Explore the 96-species comparative transposable-element atlas](https://fuxialexander.github.io/motiverse/atlas/), with 111,980 recomputed target points, repeat-divergence and Dfam-based evolutionary-age views. Scores reproduce the validated Figure 4 windows; all 96 species are available in divergence mode and CSV export.
 
 ## Install
 

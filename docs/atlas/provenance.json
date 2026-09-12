@@ -1,8 +1,19 @@
 {
-  "source_experiment": "2026-08-31_te-register-oomen-mya-explorer",
-  "source_artifact": "figures/te_register_age_explorer.html",
-  "sha256": "3bb7f1b244f21a1cdca2b08d9f24dc5bfc02ffb74cad2378079531039570fef5",
-  "bytes": 15332843,
-  "published_copy_date": "2026-09-12",
-  "changes_to_source_html": false
+  "species": 96,
+  "target_rows": 111980,
+  "figure4_rows_reconciled": 3980,
+  "max_abs_figure4_score_difference": 7.105427357601002e-15,
+  "positive_age_target_rows": 73788,
+  "positive_age_species": 94,
+  "divergence_target_rows": 111980,
+  "html_sha256": "08c34fc4fc34354f8dfb5c28d674034166a1e2f2c707874d739f72ef49785403",
+  "html_bytes": 34687252,
+  "source_experiment": "2026-09-12_atlas-figure4-sync",
+  "scoring": "ER \u00b173 bp \u00b15; AR \u00b1147 bp \u00b13 (actual Figure 4 code)",
+  "commands": [
+    ".venv/bin/python artifacts/divergence.py",
+    ".venv/bin/python artifacts/recompute.py",
+    "python artifacts/finalize.py"
+  ],
+  "validation": "3980 Figure 4 scores reconciled; all 96 species and 111980 rows verified in Chromium; all prior 4791 divergence records reproduce exactly"
 }
