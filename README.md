@@ -16,6 +16,10 @@ The scalable workflow keeps the complete `(group, motif, position)` output. Use
 an exact motif name (including its HOCOMOCO suffix) or `--query-motif-index`;
 short family names can match both forward and reverse-complement entries.
 
+## Interactive atlas
+
+[Explore the 96-species comparative transposable-element atlas](https://fuxialexander.github.io/motiverse/atlas/), with repeat-divergence and Dfam-based evolutionary-age views.
+
 ## Install
 
 Motiverse is currently installed from GitHub rather than PyPI.
